@@ -6,7 +6,25 @@
   <title>Lucas Fazio Health Analyisis</title>
 </head>
   <body color="#00000">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GVm8pFDxUjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </iframe>
+    <div class="container">
+    <iframe src="https://www.youtube.com/embed/GVm8pFDxUjU?autoplay=1&mute=1&enablejsapi=1"
+    frameborder="0" allowfullscreen class="video" autoplay = "autoplay"> 
+    </iframe>
+  </div>
   </body>
+  <style>
+    .container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  </style>
 </html>
